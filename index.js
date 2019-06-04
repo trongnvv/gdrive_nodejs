@@ -8,7 +8,7 @@ class boot {
     }
 
     start() {
-        this.driveHandle.readFile();
+        this.driveHandle.downloadFolder();
         // this.driveHandle.downloadFile();
     }
 }

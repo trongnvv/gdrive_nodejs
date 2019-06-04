@@ -36,7 +36,7 @@ class AuthGoogle {
     getToken(oAuth2Client, type) {
         return new Promise((resolve, reject) => {
             const scopes = [
-                'https://www.googleapis.com/auth/drive.metadata.readonly'
+                'https://www.googleapis.com/auth/drive.readonly'
             ];
 
             const url = oAuth2Client.generateAuthUrl({

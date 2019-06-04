@@ -6,6 +6,5 @@ module.exports = {
             "urn:ietf:wg:oauth:2.0:oob",
             "http://localhost:3000"
         ],
-        url_v3: "https://www.googleapis.com/drive/v3/"
     }
 }
